@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Live Virtual Class</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+
+
+    <body style="background-color:darkviolet; color:white;">
+
+        <header style="background-image: url('media/header-background.jpg'); opacity : 1; color:white;">
+            <h1 style="color:white; font-size:50px; margin-bottom:0;"> <center>INDIA'S LIVE VIRTUAL CLASS</center></h1>
+            <marquee direction="right" ><h2 style="color:white; margin-bottom:0;margin-top:0;"> A Platform for virtual learning</marquee></h2>
+            <h3><center>Way to success!</center></h3>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <!-- The social media icon bar -->
+            <div class="icon-bar">
+              <a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://in.linkedin.com/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.youtube.com/" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a>
+            </div>
+        </header>
+
+        <nav >
+            <strong>
+                <a href="index.html">HOME</a> |
+                <a href="courses.html">ALL COURSES</a> |
+                <a href="registration.html">REGISTRATION</a> |
+                <a href="quiz.html">QUIZ</a> |
+                <a href="#">TEST</a>
+            </strong>
+        </nav>
+
+        <div id = "leftbox" style="border-style: groove;">
+            <center><h2>India's Most Loved Learning App</h2>
+                    <h4>Class 4 - 10 | 11-12, JEE/NEET | TEST PREP</h4></br>
+                    <button onclick="playPause()">Play/Pause</button>
+                    <button onclick="makeBig()">Big</button>
+                    <button onclick="makeSmall()">Small</button>
+                    <button onclick="makeNormal()">Normal</button></br></br>
+                    <iframe width=90% height=250% src="https://www.youtube.com/embed/XAGl-_bjvY8" frameborder="0" allow="accelerometer;
+                                                autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p style="font-size: 20px;"> Watch this video to know about VIRTUAL learning</p>
+            </center>
+        </div>
+
+        <div id = "middlebox" style="background-color: darkblue; border-style: groove;">
+                  <fieldset style="border: 3px solid; border-radius: 15px;">
+                    <legend> Pre Test </legend>
+                     <form name="form2"  method="post" >
+                                  <table  cellspacing="10" border="0" >
+                                      <tr>
+                                          <td>English</td>
+                                          <td> : </td>
+                                          <td><input type="text" name="t1" placeholder="Enter your marks"></td>
+                                      </tr>
+                                      <tr>
+                                          <td>G.K. </td>
+                                          <td> : </td>
+                                          <td><input type="text" name="t2" placeholder="Enter your marks"></td>
+                                      </tr>
+                                      <tr>
+                                          <td>Math</td>
+                                          <td> : </td>
+                                          <td><input type="text" name="t3" placeholder="Enter your marks"></td>
+                                      </tr>
+                                      <tr>
+                                          <td></td>
+                                          <td></td>
+                                          <td><input type="button" value="Result" onclick="validate()"></br></td>
+                                      </tr>
+                                      <tr>
+                                          <td>Total Marks</td>
+                                          <td>:</td>
+                                          <td><input type="text" id="tm"></td>
+                                      </tr>
+                                      <tr>
+                                          <td>Percentage</td>
+                                          <td>:</td>
+                                          <td><input type="text" id="per"></td>
+                                      </tr>
+                                      <tr>
+                                          <td>Highest Marks</td>
+                                          <td>:</td>
+                                          <td><input type="text" id="hm"></td>
+                                      </tr></br>
+                                      <tr>
+                                          <td>Your Sunshine</td>
+                                          <td> : </td>
+                                          <td><select name="text12" onchange="validate123()">
+                                              <option value="select">Select         </option>
+                                                  <option value="Taurus">Taurus         </option>
+                                                  <option value="Leo">Leo         </option>
+                                                  <option value="Scorpio">Scorpio         </option>
+                                                  <option value="Aquarius">Aquarius     </option>
+                                          </select></td>
+                                      </tr>
+                                      <tr>
+                                          <td>Sunshine Detail</td>
+                                          <td> : </td>
+                                          <td><textarea id="text15" rows="7" cols="40"></textarea></td>
+                                      </tr>
+                                  </table>
+                              </form>
+                  </fieldset>
+              </div>
+
+        <div id = "rightbox" style="border-style: groove;">
+            <h2 style="margin:15px; color:orange;">Contribute:</h2>
+            <p style="margin:15px;">Any geeks can help other geeks by writing
+            articles on the GeeksforGeeks, publishing
+            articles follow few steps that are Articles
+            that need little modification/improvement
+            from reviewers are published first. </p>
+            <center><button onclick = "myFunction()">Reload image</button></br></br>
+            <img onmouseover="func1()" onmouseout="func2()" src="media/right-div.jpg" alt="study" width="230" height="250">
+            <p style="font-size: 20px;"> Let's Go!</p></center>
+        </div>
+
+
+        <footer>
+            <div id = "p1" style="background-color: lightgrey;">
+                <h1 style="padding-top:3px; padding-left:100px;">LVC</h1>
+                <h3 style="padding-left:22px;">A virtual learning portal for geeks</h3>
+                <p style="padding-left:22px;">&copy; Copyright 2020 by Shubham Singh </p>
+            </div>
+
+            <div id = "p2" style="background-color: lightgrey;">
+                <center><h1 style="padding-top:3px;">COMPANY</h1>
+                <p>
+                About Courses</br>
+                Privacy Policy</br>
+                Job Openings</br>
+                Careers</center></p>
+            </div>
+
+            <div id = "p3" style="background-color: lightgrey;">
+                <center><h1 style="padding-top:3px;">LEARN</h1>
+                    <p>
+                        Algorithms</br>
+                        Data Structures</br>
+                        Languages</br>
+                        CS Subjects</center></p>
+            </div>
+
+            <div id = "p4" style="background-color: lightgrey;">
+                <center><h1 style="padding-top:3px;">PRACTICE</h1>
+                    <p>
+                        Courses</br>
+                        Company-wise</br>
+                        Topic-wise</br>
+                        How to begin?</center></p>
+            </div>
+
+            <div id = "p5" style="background-color: lightgrey;">
+                <center><h1 style="padding-top:3px;">CONTRIBUTE</h1>
+                    <p>
+                        Write an Article</br>
+                        Write Interview Experience</br>
+                        Internships</br>
+                        Videos</center></p>
+            </div>
+        </footer>
+    </body>
+</html>
